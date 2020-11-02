@@ -15,11 +15,11 @@ using JuliaAcademyData; activate("Foundations of machine learning")
 
 using Images
 
-apple = load(datafile("data/10_100.jpg"))
+apple = load(datapath("data/10_100.jpg"))
 
 #-
 
-banana = load(datafile("data/104_100.jpg"))
+banana = load(datapath("data/104_100.jpg"))
 
 # Here we have images of apples and bananas. We would eventually like to build a program that can automatically distinguish between the two. However, the computer doesn't "see" an apple or a banana; instead, it just sees numbers.
 #
